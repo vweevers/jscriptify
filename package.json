@@ -23,6 +23,9 @@
   "devDependencies": {
     "tape": "~4.5.1"
   },
+  "repository": "vweevers/jscriptify",
+  "bugs": "https://github.com/vweevers/jscriptify/issues",
+  "homepage": "https://github.com/vweevers/jscriptify",
   "keywords": [
     "browserify",
     "cscript",
