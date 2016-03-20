@@ -1,6 +1,6 @@
 {
   "name": "jscriptify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "require() for Windows JScript",
   "bin": "cli.js",
   "license": "MIT",
