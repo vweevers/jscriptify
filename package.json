@@ -1,0 +1,38 @@
+{
+  "name": "jscriptify",
+  "version": "0.0.1",
+  "description": "require() for Windows JScript",
+  "bin": "cli.js",
+  "license": "MIT",
+  "author": {
+    "name": "Vincent Weevers",
+    "email": "mail@vincentweevers.nl"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "browserify": "~13.0.0",
+    "concat-stream": "~1.5.1",
+    "uglify-js": "~2.6.2",
+    "yargs": "~4.3.2"
+  },
+  "devDependencies": {
+    "tape": "~4.5.1"
+  },
+  "keywords": [
+    "browserify",
+    "cscript",
+    "jscript",
+    "require",
+    "wscript",
+    "wsh"
+  ],
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  }
+}
