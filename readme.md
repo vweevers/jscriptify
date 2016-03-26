@@ -14,16 +14,16 @@ browserify --bare input.js | uglifyjs \
 Three ways to do the same thing:
 
 ```bash
-cscriptify lib/input.js > lib/bundle.js
-cscriptify --basedir lib < lib/input.js > lib/bundle.js
-cscriptify --cwd lib input.js --output bundle.js
+jscriptify lib/input.js > lib/bundle.js
+jscriptify --basedir lib < lib/input.js > lib/bundle.js
+jscriptify --cwd lib input.js --output bundle.js
 ```
 
 The `cwd` parameter affects input and output location as well as the `basedir`, which is passed to browserify. The `basedir`, `cwd` and `output` parameters are aliased as `b`, `c` and `o`:
 
 ```bash
-cscriptify -b lib < lib/input.js > lib/bundle.js
-cscriptify -c lib input.js -o bundle.js
+jscriptify -b lib < lib/input.js > lib/bundle.js
+jscriptify -c lib input.js -o bundle.js
 ```
 
 To run a bundled script: `cscript bundle.js`
